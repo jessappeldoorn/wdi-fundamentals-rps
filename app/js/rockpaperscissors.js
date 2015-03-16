@@ -55,7 +55,7 @@ function getWinner(playerMove,computerMove) {
     else if(playerMove === "paper" && computerMove === "scissors") {
         return "computer";
     }
-    else if(playerMove === "paper" && computerMove === "rock") {
+    else (playerMove === "paper" && computerMove === "rock") {
         return "player";
     }
 
